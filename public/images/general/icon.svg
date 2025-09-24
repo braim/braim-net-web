@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 15.699999809265137 28.5 29.299999237060547" data-asc="0.9" width="28.5" height="29.299999237060547">
+<svg xmlns="http://www.w3.org/2000/svg" 
+	 	   fill="currentColor"
+  stroke="currentColor"
+	 viewBox="0 15.699999809265137 28.5 29.299999237060547" data-asc="0.9" width="28.5" height="29.299999237060547">
 	<defs/>
 
 
@@ -8,11 +11,12 @@
 		</g>
 	</g>
 
-  <style>
-    /* If this SVG is used as a file (e.g. <img>), declare both schemes here */
-    :root { color-scheme: light dark; }
-
-    /* Choose black in light mode, white in dark mode */
-    * { fill: light-dark(#000, #fff); }
-  </style>
+	<style>
+		@media (prefers-color-scheme: dark) {
+		svg {
+		fill: #fff;
+		stroke: #fff;
+		}
+		}
+	</style>
 </svg>
