@@ -9,7 +9,7 @@ export const metadata = {
     // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 }
 
-const banner = <Banner storageKey="some-key">This template was created with 🩸 and 💦 by <Link href="https://github.com/phucbm">PHUCBM</Link> 🐧</Banner>
+const banner = <Banner storageKey="banner-under-construction-key">🚧 👷 This website is under construction 👷 🚧</Banner>
 const navbar = (
     <Navbar
         logo={<img src="/images/general/logo.svg" alt="Logo" width={100} height={20}/>}
