@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-	   fill="currentColor"
-  stroke="currentColor"
+
 	 viewBox="0 15.699999809265137 126.55000305175781 29.299999237060547" 
 	 data-asc="0.9" width="126.55000305175781" height="29.299999237060547">
 	<defs/>
@@ -11,10 +10,10 @@
 	</g>
 	<style>
 		@media (prefers-color-scheme: dark) {
-		svg {
-		fill: #fff;
-		stroke: #fff;
-		}
+			svg {
+			fill: #fff;
+			stroke: #fff;
+			}
 		}
 	</style>
 </svg>
