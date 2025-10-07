@@ -32,14 +32,14 @@ export default async function RootLayout({children}) {
             // ... Your additional head options
         >
             <link rel="shortcut icon" href="/images/general/icon.svg"/>
-          
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-NNZBJ3BYK8"></script>
+      
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-BLYQM4FJCT"></script>
             <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-NNZBJ3BYK8');
+            gtag('config', 'G-BLYQM4FJCT');
             </script>
             {/* Your additional tags should be passed as `children` of `<Head>` element */}
         </Head>
